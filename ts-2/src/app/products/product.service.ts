@@ -40,5 +40,9 @@ export const updateProduct = (id: Product['id'], changes: UpdateProductDto) => {
 export const findProducts = (dto: FindProductDto): Product[] => {
   // code
   // dto.color = 'blue';
+  // dto.tags = [];
+  // dto.tags?.push();
+  // dto.tags?.pop();
+
   return products;
 };
