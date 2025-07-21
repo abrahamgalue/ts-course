@@ -6,3 +6,7 @@ export interface CreateProductDto
 }
 
 type example = Pick<Product, 'color' | 'description'>;
+
+export interface UpdateProductDto extends Partial<CreateProductDto> {}
+
+type example2 = Required<Product>;
