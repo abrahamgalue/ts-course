@@ -1,4 +1,4 @@
-class Animal {
+export abstract class Animal {
   constructor(protected name: string) {}
 
   move() {
@@ -14,7 +14,7 @@ class Animal {
   }
 }
 
-class Dog extends Animal {
+export class Dog extends Animal {
   constructor(name: string, public owner: string) {
     super(name);
   }
