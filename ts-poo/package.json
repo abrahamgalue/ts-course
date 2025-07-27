@@ -10,6 +10,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@faker-js/faker": "^9.9.0"
+    "@faker-js/faker": "^9.9.0",
+    "class-validator": "^0.14.2"
   }
 }
